@@ -10,8 +10,14 @@ To contact me:
 
 ---
 
+<p align="center">
+  <img src="foto_profilo_professionale.png" alt="foto_profilo_professionale" width="200"/>
+</p>
+
 *I’m a physics master student mainly interested
 in particle physics, methods for trajectory reconstruction, coding and machine learning*.
+
+---
 
 - [Here is my CV](CV_2025-01-17.pdf)
 
