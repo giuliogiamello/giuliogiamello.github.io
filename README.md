@@ -62,6 +62,7 @@ in particle physics, methods for trajectory reconstruction, coding and machine l
 - Physics and Advanced Technologies
 - Grade: 110/110 cum Laude
 - [Physics Departement](https://fisica-tecnologie-avanzate.unisi.it/en)
+- [My bachelor's thesis](tesi_giamello.pdf)
 
 ---
 
