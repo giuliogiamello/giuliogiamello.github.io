@@ -49,7 +49,7 @@ in particle physics, methods for trajectory reconstruction, coding and machine l
 
 ## Education
 
-**IMAPP JOINT MASTER | MASTER'S DEGREE**
+<b>IMAPP JOINT MASTER | MASTER'S DEGREE</b>
 
 `Sep 2024 – Present | Clermont FR, Dortmund DE, Bologna IT`
 
@@ -61,7 +61,7 @@ in particle physics, methods for trajectory reconstruction, coding and machine l
 
 ---
 
-**UNIVERSITÀ DEGLI STUDI DI SIENA | BACHELOR'S DEGREE**
+<b>UNIVERSITÀ DEGLI STUDI DI SIENA | BACHELOR'S DEGREE</b>
 
 `Sep 2020 – Jul 2024 | Siena IT`
 
@@ -72,7 +72,7 @@ in particle physics, methods for trajectory reconstruction, coding and machine l
 
 ---
 
-**LICEO CLASSICO E. S. PICCOLOMINI | HIGH SCHOOL DIPLOMA**
+<b>LICEO CLASSICO E. S. PICCOLOMINI | HIGH SCHOOL DIPLOMA</b>
 
 `Sep 2015 – Jun 2020 | Siena IT`
 
@@ -82,8 +82,8 @@ in particle physics, methods for trajectory reconstruction, coding and machine l
 
 ## Experience
 
-**GALILEO FESTIVAL OF SCIENCE AND INNOVATION | 2021
-ACADEMY MEMBER**
+<b>GALILEO FESTIVAL OF SCIENCE AND INNOVATION | 2021
+ACADEMY MEMBER</b>
 
 `Oct 2021 | Padua IT`
 
@@ -94,7 +94,7 @@ Guidoni, Giorgio Saccoccia, Maria Chiara Carrozza)
 
 ---
 
-**PHYSICS SUMMER SCHOOL | 2019 MEMBER**
+<b>PHYSICS SUMMER SCHOOL | 2019 MEMBER</b>
 
 `Sep 2019 | Vivo d'Orcia IT`
 
@@ -104,7 +104,7 @@ Guidoni, Giorgio Saccoccia, Maria Chiara Carrozza)
   
 ## Awards and honors
 
-**IMAPP JOINT MASTER | ERASMUS MUNDUS SCHOLARSHIPS**
+<b>IMAPP JOINT MASTER | ERASMUS MUNDUS SCHOLARSHIPS</b>
 
 `Sep 2024 – Present | Clermont FR, Dortmund DE, Bologna IT`
 
