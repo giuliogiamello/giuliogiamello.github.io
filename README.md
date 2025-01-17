@@ -29,7 +29,8 @@ in particle physics, methods for trajectory reconstruction, coding and machine l
 
 ## Links
 
-- [LinkedIn - giuliogiamello](https://www.linkedin.com/in/giulio-giamello)
+- [LinkedIn: giuliogiamello](https://www.linkedin.com/in/giulio-giamello)
+- [GitHub: giuliogiamello.github.io](https://giuliogiamello.github.io/)
 
 ## Languages
 
