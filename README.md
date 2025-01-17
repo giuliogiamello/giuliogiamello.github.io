@@ -40,7 +40,7 @@ in particle physics, methods for trajectory reconstruction, coding and machine l
 
 ### Coding
 
-- **Intermediate:** ROOT (CERN) • <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span></p>
+- **Intermediate:** ROOT (CERN) • LaTeX
 - **Basic:** Python • C++ • Matlab
 
 ### Operating systems
