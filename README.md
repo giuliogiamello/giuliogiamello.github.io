@@ -2,7 +2,7 @@
 
 `Last Updated on 17th January 2025`
 
-I'm from Siena, Italy.
+I'm from Siena, Italy
 
 To contact me:
     
