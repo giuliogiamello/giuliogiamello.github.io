@@ -23,10 +23,10 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin: 0.5;
     font-size: 3rem;
     font-weight: bold;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
 }
 
 nav {
@@ -118,7 +118,7 @@ h2, h3 {
 footer {
     background: #333;
     color: #fff;
-    padding: 1rem;
+    padding: 0.5rem;
     margin-top: auto;
 }
 
