@@ -104,6 +104,32 @@
             flex: 1;
         }
 
+        /* New Contact Section */
+        .contact {
+            background-color: #eee;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 2rem;
+            border-radius: 8px;
+        }
+
+        .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact a {
+            color: #333;
+            font-weight: bold;
+            text-decoration: none;
+            border-bottom: 2px solid #333;
+        }
+
         /* Footer styles */
         footer {
             background: #333;
@@ -161,6 +187,10 @@
             .footer-content {
                 flex-direction: column; /* Ensures stacking of items */
             }
+
+            .contact {
+                margin-top: 3rem; /* Add more space for smaller screens */
+            }
         }
 
         @media (max-width: 480px) {
@@ -209,11 +239,19 @@
         <section class="hero">
             <section class="content">
                 <img src="foto_profilo_professionale.png" alt="foto_profilo_professionale">
-                <p>Hi, I'm Giulio Giamello, from Siena, Italy.<br><br>
-                <i>"I’m a physics master student mainly interested in particle physics, methods for trajectory reconstruction, coding and machine learning".</i><br><br>
-                Currently, I'm a student of the International Master on Advanced methods in Particle Physics <a href="https://imapp.eu/">IMAPP</a>.
+                <p>Hi, I'm <b>Giulio Giamello</b>, from Siena, Italy.<br><br>
+                <i>"I’m a physics master student mainly interested in <b>particle physics</b>, methods for <b>trajectory reconstruction</b>, coding and <b>machine learning</b>".</i><br><br>
+                Currently, I'm a student of the <b>International Master on Advanced methods in Particle Physics</b> <a href="https://imapp.eu/">IMAPP</a>.<br><br>
+                <b>Contact me:</b>
+            if you would like to get in touch with me, feel free to reach me out via
+                <a href="mailto:giuliogiamello@gmail.com">email</a>.
                 </p>
             </section>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            
         </section>
     </div>
     <footer>
