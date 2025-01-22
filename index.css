@@ -23,10 +23,10 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin: 0.5;
     font-size: 3rem;
     font-weight: bold;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
 }
 
 nav {
@@ -69,7 +69,8 @@ nav a.higlight:hover {
 /* Hero section */
 .hero {
     text-align: center;
-    padding: 0.5rem 0.5rem; /* Reduced padding */
+    padding-top: 0.5rem; /* Reduced padding */
+    padding-bottom: 0.5rem;
     background: #eee;
     margin-bottom: 1.5rem; /* Reduced margin */
 }
@@ -111,7 +112,7 @@ nav a.higlight:hover {
 footer {
     background: #333;
     color: #fff;
-    padding: 0rem;
+    padding: 0.5rem;
     margin-top: auto;
 }
 
