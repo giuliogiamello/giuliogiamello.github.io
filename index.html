@@ -52,6 +52,19 @@
         .hero p {
             font-size: 1rem;
         }
+        .content {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .content img {
+            max-width: 150px;
+            border-radius: 10px;
+        }
+        .content p {
+            text-align: left;
+        }
         footer {
             text-align: center;
             padding: 1rem;
@@ -72,11 +85,13 @@
     <div class="container">
         <section class="hero">
             <h1>I'm from Siena, Italy
-                To contact me:</h1>
-             <p align="center">
-             <img src="foto_profilo_professionale.png" alt="foto_profilo_professionale" width="200"/>
-             </p>
-            <i>I’m a physics master student mainly interested in particle physics, methods for trajectory reconstruction, coding and machine learning</i>
+                To contact me:
+            </h1>
+                <section class="content">
+                <img src="foto_profilo_professionale.png" alt="foto_profilo_professionale" width="200">
+                <p><i>I’m a physics master student mainly interested in particle physics, methods for trajectory reconstruction, coding and machine learning
+                </i></p>
+            </section>
         </section>
         <section>
             <h2>Links</h2>
