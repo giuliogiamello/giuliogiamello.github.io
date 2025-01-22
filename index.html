@@ -164,11 +164,16 @@
             }
 
             .content img {
-                width: 120px;
+                width: 100px; /* Adjust image width on smaller screens */
             }
 
             .linkedin-button i {
                 font-size: 20px;
+            }
+
+            .footer-content {
+                gap: 1rem; /* Add more space between text and icon on smaller screens */
+                flex-direction: column-reverse; /* Change order to place the LinkedIn icon above the text */
             }
         }
     </style>
@@ -177,27 +182,26 @@
     <header>
         <h1>Giulio Giamello</h1>
         <nav>
-        	<a href="index.html">Home</a>
-        	<a href="about.html">About Me</a>
-    	</nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+        </nav>
     </header>
     <div class="container">
         <section class="hero">
             <section class="content">
                 <img src="foto_profilo_professionale.png" alt="foto_profilo_professionale" width="200">
                 <p>Hi, I'm Giulio Giamello, from Siena, Italy.<br><br>
-                <i>"I’m a physics master student mainly interested in particle physics, methods for trajectory reconstruction, coding and machine learning".
-                </i></p>
+                <i>"I’m a physics master student mainly interested in particle physics, methods for trajectory reconstruction, coding and machine learning".</i></p>
             </section>
         </section>
     </div>
     <footer>
-    <div class="footer-content">
-        <p>Last update on 17th January 2025</p>
-        <a class="linkedin-button" href="https://www.linkedin.com/in/giulio-giamello" target="_blank">
-            <i class="fab fa-linkedin"></i>
-        </a>
-    </div>
-</footer>
+        <div class="footer-content">
+            <a class="linkedin-button" href="https://www.linkedin.com/in/giulio-giamello" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <p>Last update on 17th January 2025</p>
+        </div>
+    </footer>
 </body>
 </html>
