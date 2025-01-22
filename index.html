@@ -73,20 +73,32 @@
             text-align: left;
         }
         footer {
-            text-align: center;
-            padding: 1rem;
-            background: #333;
-            color: #fff;
-            margin-top: 2rem;
-        }
-        .linkedin-button img {
-            width: 24px;
-            height: 24px;
-            vertical-align: middle;
-        }
-        .linkedin-button {
-            display: inline-block;
-        }
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Space between the text and the LinkedIn icon */
+}
+
+.footer-content p {
+    margin: 0; /* Removes default margin for alignment */
+}
+
+.linkedin-button i {
+    font-size: 24px; /* Adjust the size of the LinkedIn icon */
+    color: #fff; /* Icon color */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.linkedin-button i:hover {
+    color: #0077b5; /* LinkedIn blue on hover */
+}
     </style>
 </head>
 <body>
@@ -108,10 +120,12 @@
         </section>
     </div>
     <footer>
+    <div class="footer-content">
         <p>Last update on 17th January 2025</p>
         <a class="linkedin-button" href="https://www.linkedin.com/in/yourprofile" target="_blank">
-    <i class="fab fa-linkedin"></i>
-</a>
-    </footer>
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
+</footer>
 </body>
 </html>
