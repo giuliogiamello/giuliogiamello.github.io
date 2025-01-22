@@ -80,9 +80,9 @@ nav a:hover {
 }
 
 .content img {
-    max-width: 100%;
-    width: 300px;
-    height: auto;
+    width: 100%; /* Ensure the image takes up full width of the container */
+    max-width: 500px; /* Set a maximum width to avoid the image becoming too large */
+    height: auto; /* Keep the aspect ratio intact */
     border-radius: 10px;
     border: 5px solid #333;
 }
