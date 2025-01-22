@@ -87,8 +87,8 @@ nav a.higlight:hover {
     font-size: 1rem;
 }
 
-/* Content_aboutme styles */
-.content_aboutme {
+/* Content styles */
+.content {
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: flex-start; /* Align content to the left */
@@ -97,14 +97,14 @@ nav a.higlight:hover {
     text-align: left; /* Align all text within this section to the left */
 }
 
-.content_aboutme ul {
+.content ul {
     list-style-type: none; /* Remove default list bullets */
     padding: 0;
     margin: 0;
     text-align: left; /* Align list items to the left */
 }
 
-.content_aboutme li {
+.content li {
     margin-bottom: 0.5rem; /* Space between list items */
 }
 
