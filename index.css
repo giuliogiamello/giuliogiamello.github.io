@@ -107,6 +107,28 @@ nav a.higlight:hover {
     flex: 1;
 }
 
+/* Content_aboutme styles */
+.content_aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0; /* Reduced margin */
+    justify-content: flex-start; /* Align content to the left */
+}
+
+/* Align the list items to the left */
+.content_aboutme ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+    margin: 0;
+    text-align: left; /* Align the text to the left */
+}
+
+.content_aboutme li {
+    margin-bottom: 0.5rem; /* Space between list items */
+}
+
 /* Footer styles */
 footer {
     background: #333;
