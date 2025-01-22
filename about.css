@@ -70,9 +70,9 @@ nav a.higlight:hover {
 /* Hero section */
 .hero {
     text-align: left; /* Align text to the left */
-    padding: 1rem; /* Reduced padding */
+    padding: 0.5rem 1rem; /* Reduced padding */
     background: #eee;
-    margin-bottom: 1rem; /* Reduced margin */
+    margin-bottom: -1rem; /* Reduced margin */
     display: flex;
     flex-direction: column; /* Stack content vertically */
     align-items: flex-start; /* Align content to the left */
