@@ -63,7 +63,7 @@ nav a.higlight:hover {
 .container {
     max-width: 1200px;
     margin: 0; /* Remove centering margin */
-    padding: 0rem; /* Reduced padding to decrease space between sections */
+    padding: 0.5rem; /* Reduced padding to decrease space between sections */
     flex: 1;
 }
 
