@@ -72,7 +72,6 @@ nav a.higlight:hover {
     text-align: left; /* Align text to the left */
     padding: 0.5rem 0.5rem; /* Reduced padding */
     background: #eee;
-    margin-bottom: -2rem; /* Reduced margin */
     display: flex;
     flex-direction: column; /* Stack content vertically */
     align-items: flex-start; /* Align content to the left */
@@ -153,7 +152,6 @@ footer .footer-content p {
     margin-top: 0; /* Remove margin between the LinkedIn button and the "Last update" text */
     font-size: 0.9rem; /* Optional: Adjust the size */
 }
-
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
