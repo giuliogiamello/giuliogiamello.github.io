@@ -98,8 +98,9 @@ nav a.higlight:hover {
 }
 
 .content ul {
-    list-style-type: none; /* Remove default list bullets */
-    padding: 0;
+    list-style-type: disc; /* Remove default list bullets */
+    padding-left: 50px;
+    /*padding: 0;*/
     margin: 0;
     text-align: left; /* Align list items to the left */
 }
@@ -110,6 +111,7 @@ nav a.higlight:hover {
 
 h2, h3 {
     margin-top: 1rem; /* Reduced margin */
+    padding-left: 10px;
     margin-bottom: 0.5rem; /* Reduced margin */
     text-align: left; /* Ensure headings are aligned to the left */
 }
