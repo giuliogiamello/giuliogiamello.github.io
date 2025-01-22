@@ -46,6 +46,19 @@ nav a:hover {
     text-decoration: underline;
 }
 
+/* Highlight buttons */
+nav a.higlight {
+    background-color: #0077b5; /* Highlight color */
+    color: white; /* Change text color */
+    padding: 0.5rem 1rem; /* Add padding for better visibility */
+    border-radius: 5px; /* Optional: makes it look like a button */
+}
+
+/* Hover effect for buttons */
+nav a.higlight:hover {
+    background-color: #005fa3; /* Darker shade on hover */
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
