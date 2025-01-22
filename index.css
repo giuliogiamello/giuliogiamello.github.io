@@ -77,14 +77,16 @@ nav a:hover {
     align-items: center;
     gap: 1rem;
     margin: 1.5rem 0; /* Reduced margin */
+    justify-content: center; /* Center the content inside the container */
 }
 
 .content img {
     width: 100%; /* Ensure the image takes up full width of the container */
-    max-width: 300px; /* Set a maximum width to avoid the image becoming too large */
+    max-width: 350px; /* Set a maximum width to avoid the image becoming too large */
     height: auto; /* Keep the aspect ratio intact */
     border-radius: 10px;
     border: 5px solid #333;
+    object-fit: cover; /* Ensures the image fits within the container without distortion */
 }
 
 .content p {
@@ -160,7 +162,7 @@ footer {
     }
 
     .content img {
-        width: 200px;
+        max-width: 200px; /* Adjust image size for very small screens */
     }
 
     .linkedin-button i {
