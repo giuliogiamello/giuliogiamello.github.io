@@ -14,10 +14,16 @@
             color: #333;
         }
         header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             background: #333;
             color: #fff;
-            padding: 0.5rem;
-            text-align: center;
+            padding: 0.5rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
         }
         nav {
             display: flex;
@@ -77,20 +83,18 @@
 <body>
     <header>
         <h1>Giulio Giamello</h1>
+        <nav>
+        	<a href="index.html">Home</a>
+        	<a href="about.html">About Me</a>
+    	</nav>
     </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Me</a>
-    </nav>
     <div class="container">
         <section class="hero">
-            <h1>I'm from Siena, Italy
-                To contact me:
-            </h1>
-                <section class="content">
+            <section class="content">
                 <img src="foto_profilo_professionale.png" alt="foto_profilo_professionale" width="200">
-                <p><i>I’m a physics master student mainly interested in particle physics, methods for trajectory reconstruction, coding and machine learning
-                </i></p>
+                <p>Hi, I am Giulio Giamello, from Siena, Italy.<br>
+                <i>I’m a physics master student mainly interested in particle physics, methods for trajectory reconstruction, coding and machine learning
+                </i>.</p>
             </section>
         </section>
         <section>
