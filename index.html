@@ -7,224 +7,208 @@
     <title>Giulio Giamello</title>
     <style>
         /* General styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #f4f4f9;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh; /* Ensures the body takes up at least the full height of the screen */
-        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-        /* Header styles */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #333;
-            color: #fff;
-            padding: 0.5rem 1rem;
-            flex-wrap: wrap;
-        }
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    flex-wrap: wrap;
+}
 
-        /* Make the title normal (remove highlight and shadow) */
-        header h1 {
-            margin: 0;
-            font-size: 3rem; /* Larger title */
-            font-weight: bold;
-            padding: 1rem 0; /* More space around the title */
-        }
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
 
-        nav {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 1rem;
-        }
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
 
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            font-weight: bold;
-        }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-        /* Underline links in the navigation */
-        nav a:hover {
-            text-decoration: underline;
-        }
+nav a:hover {
+    text-decoration: underline;
+}
 
-        /* Main container styles */
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 2rem;
-            flex: 1; /* Ensures the content area stretches and pushes the footer to the bottom */
-        }
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1.5rem; /* Reduced padding to decrease space between sections */
+    flex: 1;
+}
 
-        /* Hero section */
-        .hero {
-            text-align: center;
-            padding: 2rem 1rem;
-            background: #eee;
-            margin-bottom: 2rem;
-        }
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 1.5rem 1rem; /* Reduced padding */
+    background: #eee;
+    margin-bottom: 1.5rem; /* Reduced margin */
+}
 
-        .hero h1 {
-            font-size: 2rem;
-            margin-bottom: 0.5rem;
-        }
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
 
-        .hero p {
-            font-size: 1rem;
-        }
+.hero p {
+    font-size: 1rem;
+}
 
-        /* Content styles */
-        .content {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 1rem;
-            margin: 2rem 0;
-        }
+/* Content styles */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0; /* Reduced margin */
+}
 
-        /* Updated Image Style with border */
-        .content img {
-            max-width: 100%;
-            width: 300px; /* Make the image bigger */
-            height: auto; /* Maintain aspect ratio */
-            border-radius: 10px;
-            border: 5px solid #333; /* Add a border around the image */
-        }
+.content img {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 5px solid #333;
+}
 
-        .content p {
-            text-align: left;
-            flex: 1;
-        }
+.content p {
+    text-align: left;
+    flex: 1;
+}
 
-        /* New Contact Section */
-        .contact {
-            background-color: #eee;
-            padding: 2rem;
-            text-align: center;
-            margin-top: 2rem;
-            border-radius: 8px;
-        }
+/* Contact Section */
+.contact {
+    background-color: #eee;
+    padding: 1.5rem; /* Reduced padding */
+    text-align: center;
+    margin-top: 1.5rem; /* Reduced margin */
+    border-radius: 8px;
+}
 
-        .contact h2 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 
-        .contact p {
-            font-size: 1rem;
-            margin-bottom: 1rem;
-        }
+.contact p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
 
-        .contact a {
-            color: #333;
-            font-weight: bold;
-            text-decoration: none;
-            border-bottom: 2px solid #333;
-        }
+.contact a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid #333;
+}
 
-        /* Footer styles */
-        footer {
-            background: #333;
-            color: #fff;
-            padding: 1rem;
-            margin-top: auto; /* Pushes footer to the bottom */
-        }
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-top: auto;
+}
 
-        .footer-content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            gap: 1rem;
-            text-align: center;
-            flex-direction: column; /* Ensures the items stack vertically */
-        }
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    flex-direction: column;
+}
 
-        .footer-content p {
-            margin: 0;
-            flex: 1;
-        }
+.linkedin-button i {
+    font-size: 36px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
 
-        .linkedin-button i {
-            font-size: 36px; /* Larger size for LinkedIn icon */
-            color: #fff;
-            transition: color 0.3s ease;
-        }
+.linkedin-button i:hover {
+    color: #0077b5;
+}
 
-        .linkedin-button i:hover {
-            color: #0077b5;
-        }
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
 
-        /* Responsive design for all smaller screens */
-        @media (max-width: 768px) {
-            header {
-                flex-direction: column;
-                text-align: center;
-            }
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
 
-            nav {
-                flex-direction: column;
-                gap: 0.5rem;
-            }
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
 
-            .content {
-                flex-direction: column;
-                text-align: center;
-            }
+    .footer-content {
+        flex-direction: column;
+    }
 
-            .content p {
-                text-align: center;
-            }
+    .contact {
+        margin-top: 2rem; /* Reduced spacing */
+    }
+}
 
-            .footer-content {
-                flex-direction: column; /* Ensures stacking of items */
-            }
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
 
-            .contact {
-                margin-top: 3rem; /* Add more space for smaller screens */
-            }
-        }
+    .hero h1 {
+        font-size: 1.5rem;
+    }
 
-        @media (max-width: 480px) {
-            header h1 {
-                font-size: 2.5rem; /* Adjust title size for small screens */
-            }
+    .hero p {
+        font-size: 0.9rem;
+    }
 
-            .hero h1 {
-                font-size: 1.5rem;
-            }
+    .content img {
+        width: 200px;
+    }
 
-            .hero p {
-                font-size: 0.9rem;
-            }
+    .linkedin-button i {
+        font-size: 48px;
+    }
 
-            .content img {
-                width: 200px; /* Make the image bigger on small screens */
-            }
+    .footer-content {
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
 
-            .linkedin-button i {
-                font-size: 48px; /* Larger LinkedIn icon for mobile view */
-            }
-
-            .footer-content {
-                gap: 1rem; /* Add more space between text and icon on smaller screens */
-                justify-content: center; /* Center content horizontally */
-                align-items: center; /* Align items to the center */
-                text-align: center;
-            }
-
-            .footer-content p {
-                text-align: center; /* Center the last update text */
-            }
-        }
     </style>
 </head>
 <body>
@@ -247,11 +231,6 @@
                 <a href="mailto:giuliogiamello@gmail.com">email</a>.
                 </p>
             </section>
-        </section>
-
-        <!-- Contact Section -->
-        <section class="contact">
-            
         </section>
     </div>
     <footer>
