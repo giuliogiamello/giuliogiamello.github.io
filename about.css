@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href='index.css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Giulio Giamello/About me</title>
+</head>
+<style>
 /* General styles */
 body {
     font-family: Arial, sans-serif;
@@ -70,9 +80,9 @@ nav a.higlight:hover {
 /* Hero section */
 .hero {
     text-align: left; /* Align text to the left */
-    padding: 0.5rem 1rem; /* Reduced padding */
+    padding: 0.5rem 0.5rem; /* Reduced padding */
     background: #eee;
-    margin-bottom: -1rem; /* Reduced margin */
+    margin-bottom: -2rem; /* Reduced margin */
     display: flex;
     flex-direction: column; /* Stack content vertically */
     align-items: flex-start; /* Align content to the left */
@@ -127,7 +137,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0rem;
     text-align: center;
     flex-direction: column;
 }
