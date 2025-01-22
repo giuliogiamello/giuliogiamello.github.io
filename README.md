@@ -2,22 +2,20 @@
 
 `Last update on 17th January 2025`
 
-I'm from Siena, Italy
-
-To contact me:
-    
-    giuliogiamello@gmail.com
-
----
-
 <p align="center">
   <img src="foto_profilo_professionale.png" alt="foto_profilo_professionale" width="200"/>
 </p>
 
-*I’m a physics master student mainly interested
-in particle physics, methods for trajectory reconstruction, coding and machine learning*
+Hi, I am Giulio Giamello, from Siena, Italy.
+
+*"I’m a physics master student mainly interested
+in particle physics, methods for trajectory reconstruction, coding and machine learning"*.
 
 ---
+
+To contact me:
+    
+    giuliogiamello@gmail.com
 
 - [Here is my CV](CV_2025-01-17.pdf)
 
