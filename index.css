@@ -117,12 +117,16 @@ footer {
 
 .footer-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column; /* Align items vertically */
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.5rem; /* Reduced space between items */
     text-align: center;
-    flex-direction: column;
+}
+
+/* LinkedIn Button Icon */
+.linkedin-button {
+    margin-bottom: 0.2rem; /* Reduced space between LinkedIn icon and last update */
 }
 
 .linkedin-button i {
@@ -133,6 +137,12 @@ footer {
 
 .linkedin-button i:hover {
     color: #0077b5;
+}
+
+/* Last update text */
+footer .footer-content p {
+    margin-top: 0; /* Remove margin between the LinkedIn button and the "Last update" text */
+    font-size: 0.9rem; /* Optional: Adjust the size */
 }
 
 /* Responsive design for smaller screens */
