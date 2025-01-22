@@ -9,7 +9,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: flex-start; /* Align all content to the top */
 }
 
 /* Header styles */
@@ -62,8 +61,8 @@ nav a.higlight:hover {
 
 .container {
     max-width: 1200px;
-    margin: 0; /* Remove centering margin */
-    padding: 0.5rem; /* Reduced padding to decrease space between sections */
+    margin: auto;
+    padding: 1.5rem; /* Reduced padding to decrease space between sections */
     flex: 1;
 }
 
