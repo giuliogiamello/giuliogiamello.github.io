@@ -6,6 +6,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <title>Giulio Giamello</title>
     <style>
+        /* General styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -14,6 +15,8 @@
             background-color: #f4f4f9;
             color: #333;
         }
+
+        /* Header styles */
         header {
             display: flex;
             justify-content: space-between;
@@ -22,83 +25,152 @@
             color: #fff;
             padding: 0.5rem 1rem;
         }
+
         header h1 {
             margin: 0;
             font-size: 1.5rem;
         }
+
         nav {
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
-            background: #444;
-            padding: 0.5rem 0;
+            gap: 1rem;
         }
+
         nav a {
             color: #fff;
             text-decoration: none;
-            margin: 0 1rem;
             font-weight: bold;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
+
+        /* Main container styles */
         .container {
             max-width: 1200px;
             margin: auto;
             padding: 2rem;
         }
+
+        /* Hero section */
         .hero {
             text-align: center;
             padding: 2rem 1rem;
             background: #eee;
             margin-bottom: 2rem;
         }
+
         .hero h1 {
             font-size: 2rem;
             margin-bottom: 0.5rem;
         }
+
         .hero p {
             font-size: 1rem;
         }
+
+        /* Content styles */
         .content {
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             gap: 1rem;
             margin: 2rem 0;
         }
+
         .content img {
-            max-width: 150px;
+            max-width: 100%;
+            width: 150px;
             border-radius: 10px;
         }
+
         .content p {
             text-align: left;
+            flex: 1;
         }
+
+        /* Footer styles */
         footer {
-    background: #333;
-    color: #fff;
-    padding: 1rem;
-    margin-top: 2rem;
-}
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
 
-.footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem; /* Space between the text and the LinkedIn icon */
-}
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            text-align: center;
+        }
 
-.footer-content p {
-    margin: 0; /* Removes default margin for alignment */
-}
+        .footer-content p {
+            margin: 0;
+            flex: 1;
+        }
 
-.linkedin-button i {
-    font-size: 24px; /* Adjust the size of the LinkedIn icon */
-    color: #fff; /* Icon color */
-    transition: color 0.3s ease; /* Smooth hover effect */
-}
+        .linkedin-button i {
+            font-size: 24px;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
 
-.linkedin-button i:hover {
-    color: #0077b5; /* LinkedIn blue on hover */
-}
+        .linkedin-button i:hover {
+            color: #0077b5;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .content p {
+                text-align: center;
+            }
+
+            .footer-content {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.2rem;
+            }
+
+            .hero h1 {
+                font-size: 1.5rem;
+            }
+
+            .hero p {
+                font-size: 0.9rem;
+            }
+
+            .content img {
+                width: 120px;
+            }
+
+            .linkedin-button i {
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
 <body>
