@@ -1,6 +1,6 @@
 # Giulio Giamello
 
-`Last Updated on 17th January 2025`
+`Last update on 17th January 2025`
 
 I'm from Siena, Italy
 
