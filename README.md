@@ -15,7 +15,7 @@ To contact me:
 </p>
 
 *I’m a physics master student mainly interested
-in particle physics, methods for trajectory reconstruction, coding and machine learning*.
+in particle physics, methods for trajectory reconstruction, coding and machine learning*
 
 ---
 
