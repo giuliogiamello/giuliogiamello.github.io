@@ -82,7 +82,7 @@ nav a:hover {
 
 .content img {
     width: 100%; /* Ensure the image takes up full width of the container */
-    max-width: 120px; /* Set a maximum width to avoid the image becoming too large */
+    max-width: 200px; /* Set a maximum width to avoid the image becoming too large */
     height: auto; /* Keep the aspect ratio intact */
     border-radius: 10px;
     border: 5px solid #333;
@@ -162,7 +162,7 @@ footer {
     }
 
     .content img {
-        max-width: 100px; /* Adjust image size for very small screens */
+        max-width: 150px; /* Adjust image size for very small screens */
     }
 
     .linkedin-button i {
