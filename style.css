@@ -65,9 +65,8 @@ nav a.higlight:hover {
     flex-direction: column;
     justify-content: center; /* Ensures the hero section is centered vertically */
     max-width: 1200px;
-    margin: 0;
-    padding: 0.5rem; /* Reduced padding to decrease space between sections */
-    max-margin: 1rem;
+    margin: clamp(0rem, 0rem, 1rem);
+    padding: clamp(0.5rem, 0.5rem, 0.5rem); /* Reduced padding to decrease space between sections */
 }
 
 /* Hero section */
@@ -75,11 +74,12 @@ nav a.higlight:hover {
     text-align: center;
     padding-top: 0.5rem; /* Reduced padding */
     padding-bottom: 0.5rem;
-    margin: auto 0; /* Equal top and bottom margins */
+    margin: clamp(0rem, 0rem, 1rem);
+    /*margin: auto 0; /* Equal top and bottom margins */
     background: #9fd9d7; /*#eee;*/
     border-radius: 10px;
     border: 2px solid #6cc9c6;
-    max-margin: 1rem;
+    
 }
 
 .hero h1 {
