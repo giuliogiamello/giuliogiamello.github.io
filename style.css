@@ -91,52 +91,6 @@ nav a.higlight:hover {
 
 }
 
-/* Ina section */
-.ina {
-    text-align: left; /* Align text to the left */
-    padding: 0.5rem 0.5rem; /* Reduced padding */
-    background: #eee;
-    display: flex;
-    flex-direction: column; /* Stack content vertically */
-    align-items: flex-start; /* Align content to the left */
-    margin: 0; /* Reset margin */
-    height: auto; /* Allow it to grow based on content up to max height */
-    overflow: hidden; /* Hide overflow if content exceeds max height */
-}
-
-.ina p {
-    font-size: clamp(1rem, 2.5vw, 1.25rem);
-    margin: 0.5rem;
-
-/* About styles */
-.about {
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: flex-start; /* Align content to the left */
-    gap: 1rem;
-    margin: 1rem 0; /* Reduced margin */
-    text-align: left; /* Align all text within this section to the left */
-}
-
-.about ul {
-    list-style-type: disc; /* Remove default list bullets */
-    padding-left: 50px;
-    /*padding: 0;*/
-    margin-top: -0.5rem;
-    text-align: left; /* Align list items to the left */
-}
-
-.about li {
-    margin-bottom: 0.5rem; /* Space between list items */
-}
-
-h2, h3 {
-    margin-top: 1rem; /* Reduced margin */
-    padding-left: 10px;
-    margin-bottom: 0.5rem; /* Reduced margin */
-    text-align: left; /* Ensure headings are aligned to the left */
-}
-    
 /* Content styles */
 .content {
     display: flex;
