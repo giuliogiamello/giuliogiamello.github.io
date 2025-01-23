@@ -73,6 +73,7 @@ nav a.higlight:hover {
     padding-bottom: 0.5rem;
     background: #eee;
     margin-bottom: 1.5rem; /* Reduced margin */
+
 }
 
 .hero h1 {
@@ -81,7 +82,8 @@ nav a.higlight:hover {
 }
 
 .hero p {
-    font-size: 1rem;
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+
 }
 
 /* Content styles */
@@ -96,11 +98,21 @@ nav a.higlight:hover {
 
 .content img {
     width: 100%; /* Ensure the image takes up full width of the container */
-    max-width: 200px; /* Set a maximum width to avoid the image becoming too large */
+    max-width: clamp(100px, 30%, 200px);
     height: auto; /* Keep the aspect ratio intact */
     border-radius: 10px;
     border: 5px solid #333;
     object-fit: cover; /* Ensures the image fits within the container without distortion */
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 0.6s ease-in-out forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .content p {
