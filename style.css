@@ -10,8 +10,7 @@ body {
     flex-direction: column;
     min-width: 97dvw;
     max-width: 100dvw;
-    min-height: 97dvh;
-    max-height: 100dvh;
+    min-height: 100dvh;
 }
 
 /* Dark theme styles */
@@ -125,7 +124,7 @@ nav a.higlight:hover {
     padding-bottom: 0.5rem;
     margin: clamp(0rem, 0rem, 1rem);
     /*margin: auto 0; /* Equal top and bottom margins */
-    background: #9fd9d7; /*#eee;*/
+    background: #707070 /*#eee;*/
     border-radius: 10px;
     border: 2px solid #6cc9c6;
     /*height: auto;*/
