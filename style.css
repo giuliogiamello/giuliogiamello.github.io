@@ -151,7 +151,7 @@ footer {
 }
 
 .linkedin-button i {
-    font-size: 36px;
+    font-size: clamp(35px, 40px, 50px);
     color: #fff;
     transition: color 0.3s ease;
 }
