@@ -78,6 +78,7 @@ nav a.higlight:hover {
     background: #9fd9d7; /*#eee;*/
     border-radius: 10px;
     border: 2px solid #6cc9c6;
+    max-margin: 1rem;
 }
 
 .hero h1 {
