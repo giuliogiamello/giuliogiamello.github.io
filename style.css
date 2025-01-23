@@ -13,51 +13,6 @@ body {
     min-height: 100dvh;
 }
 
-/* Dark theme styles */
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: #121212;
-		color: #e0e0e0;
-	}
-	
-	header {
-		background: #333;
-		color: #fff;
-	}
-	
-	nav a {
-		color: #fff;
-	}
-	
-	nav a.higlight {
-		background-color: #0077b5; /* Highlight color */
-		color: white; /* Change text color */
-	}
-	
-	nav a.higlight:hover {
-		background-color: #005fa3; /* Darker shade on hover */
-	}
-
-	.hero {
-		background: #707070 /*#eee;*/
-	}
-	
-	footer {
-		background: #333;
-		color: #fff;
-	}
-	
-	.linkedin-button i {
-		
-		color: #fff;
-		transition: color 0.3s ease;
-	}
-	
-	.linkedin-button i:hover {
-		color: #0077b5;
-	}
-}
-
 /* Header styles */
 header {
     display: flex;
@@ -112,6 +67,7 @@ nav a.higlight:hover {
     flex-direction: column;
     justify-content: center; /* Ensures the hero section is centered vertically */
     width: 95%;
+    color: #808080
     margin: auto;
     padding: 0.5rem; /* Reduced padding to decrease space between sections */
     height: 100%;
@@ -124,7 +80,7 @@ nav a.higlight:hover {
     padding-bottom: 0.5rem;
     margin: clamp(0rem, 0rem, 1rem);
     /*margin: auto 0; /* Equal top and bottom margins */
-    background: #707070 /*#eee;*/
+    color: #707070 /*#eee;*/
     border-radius: 10px;
     border: 2px solid #6cc9c6;
     /*height: auto;*/
