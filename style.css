@@ -68,7 +68,7 @@ nav a.higlight:hover {
     width: 95%;
     margin: auto;
     padding: 0.5rem; /* Reduced padding to decrease space between sections */
-    max-height: fit-content;
+    height: 100%;
 }
 
 /* Hero section */
