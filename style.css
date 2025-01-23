@@ -128,7 +128,12 @@ nav a.higlight:hover {
     text-align: left;
 }
 
-.content_about p, tt {
+.content_about p {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.content_about tt {
     padding-left: 10px;
     text-align: left;
 }
