@@ -67,7 +67,7 @@ nav a.higlight:hover {
     flex-direction: column;
     justify-content: center; /* Ensures the hero section is centered vertically */
     width: 95%;
-    color: #808080
+    background: #0116be;
     margin: auto;
     padding: 0.5rem; /* Reduced padding to decrease space between sections */
     height: 100%;
@@ -79,11 +79,9 @@ nav a.higlight:hover {
     padding-top: 0.5rem; /* Reduced padding */
     padding-bottom: 0.5rem;
     margin: clamp(0rem, 0rem, 1rem);
-    /*margin: auto 0; /* Equal top and bottom margins */
-    color: #707070 /*#eee;*/
+    background: #707070;
     border-radius: 10px;
     border: 2px solid #6cc9c6;
-    /*height: auto;*/
 }
 
 .hero h1 {
