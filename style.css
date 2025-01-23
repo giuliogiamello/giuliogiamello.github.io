@@ -112,6 +112,11 @@ nav a.higlight:hover {
     text-align: left; /* Align all text within this section to the left */
 }
 
+.content_about h2 {
+    margin-top: 0rem;
+    margin-bottom: -0.5rem;
+}
+
 .content img {
     width: 100%; /* Ensure the image takes up full width of the container */
     max-width: clamp(100px, 30%, 200px);
