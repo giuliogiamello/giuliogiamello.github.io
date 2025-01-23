@@ -112,9 +112,14 @@ nav a.higlight:hover {
     text-align: left; /* Align all text within this section to the left */
 }
 
-.content_about h2, h3 {
+.content_about h2 {
     margin-top: 0.5rem;
     margin-bottom: -1.5rem;
+    padding-left: 10px;
+    text-align: left; /* Ensure headings are aligned to the left */
+}
+
+.content_about h3 {
     padding-left: 10px;
     text-align: left; /* Ensure headings are aligned to the left */
 }
