@@ -18,15 +18,15 @@ header {
     align-items: center;
     background: #333;
     color: #fff;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 1rem; /* Reduced padding */
     flex-wrap: wrap;
 }
 
 header h1 {
-    margin: 0.5;
-    font-size: 3rem;
+    margin: 0;
+    font-size: 2rem; /* Reduced font size */
     font-weight: bold;
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem; /* Reduced padding */
 }
 
 nav {
@@ -112,7 +112,7 @@ nav a.higlight:hover {
 footer {
     background: #333;
     color: #fff;
-    padding: 1rem;
+    padding: 0.5rem; /* Reduced padding */
     margin-top: auto;
 }
 
@@ -121,7 +121,7 @@ footer {
     flex-direction: column; /* Align items vertically */
     justify-content: center;
     align-items: center;
-    gap: 0.5rem; /* Reduced space between items */
+    gap: 0.3rem; /* Reduced space between items */
     text-align: center;
 }
 
