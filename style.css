@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    height: 100%;
 }
 
 /* Header styles */
@@ -80,6 +81,7 @@ nav a.higlight:hover {
     background: #9fd9d7; /*#eee;*/
     border-radius: 10px;
     border: 2px solid #6cc9c6;
+    height: auto;
     
 }
 
