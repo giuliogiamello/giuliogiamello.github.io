@@ -8,8 +8,10 @@ body {
     color: #333;
     display: flex;
     flex-direction: column;
-    min-width: 100dvw;
-    min-height: 100dvh;
+    min-width: 97dvw;
+    max-width: 100dvw;
+    min-height: 97dvh;
+    max-height: 100dvh;
 }
 
 /* Dark theme styles */
