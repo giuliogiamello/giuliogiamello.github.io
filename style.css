@@ -106,11 +106,13 @@ nav a.higlight:hover {
     max-width: clamp(100px, 30%, 200px);
     height: auto; /* Keep the aspect ratio intact */
     border-radius: 10px;
-    border: 5px solid #333;
+    border: 3px solid #333;
     object-fit: cover; /* Ensures the image fits within the container without distortion */
+    margin: 0.5rem;
     opacity: 0;
     transform: translateY(10px);
     animation: fadeInUp 1.1s ease-in-out forwards;
+    
 }
 
 @keyframes fadeInUp {
