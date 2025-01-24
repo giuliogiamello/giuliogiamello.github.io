@@ -66,7 +66,7 @@ nav a.higlight:hover {
     display: flex; /* Enables flexbox on the container */
     flex-direction: column;
     justify-content: center; /* Ensures the hero section is centered vertically */
-    width: 100dvw
+    width: 100dvw;
     /*min-width: 98dvw;*/
     /*max-width: 100dvw;*/
     background: #558b6c;
