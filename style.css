@@ -1,0 +1,277 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #558b6c;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-width: 98dvw;
+    max-width: 100dvw;
+    min-height: 100dvh;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 0.3rem 1rem; /* Reduced padding */
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem; /* Reduced font size */
+    font-weight: bold;
+    padding: 0.5rem 0.5rem; /* Reduced padding */
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Highlight buttons */
+nav a.higlight {
+    background-color: #0077b5; /* Highlight color */
+    color: white; /* Change text color */
+    padding: 0.5rem 1rem; /* Add padding for better visibility */
+    border-radius: 5px; /* Optional: makes it look like a button */
+}
+
+/* Hover effect for buttons */
+nav a.higlight:hover {
+    background-color: #005fa3; /* Darker shade on hover */
+}
+
+.container {
+    flex: 1; /* Allows the container to grow and take up remaining space */
+    display: flex; /* Enables flexbox on the container */
+    flex-direction: column;
+    justify-content: center; /* Ensures the hero section is centered vertically */
+    width: 95%;
+    background: #558b6c;
+    margin: auto;
+    padding: 0.5rem; /* Reduced padding to decrease space between sections */
+    height: 100%;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding-top: 0.5rem; /* Reduced padding */
+    padding-bottom: 0.5rem;
+    margin: clamp(0rem, 0rem, 1rem);
+    background: #e2e2e2;
+    border-radius: 10px;
+    border: 2px solid #236e43;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    margin: 0.5rem;
+}
+
+/* Content styles */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-top: -0.5rem;
+    margin-bottom: -0.5rem;
+    justify-content: center;
+}
+
+.content_about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: left; /* Align all text within this section to the left */
+}
+
+.content_about h2 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left; /* Ensure headings are aligned to the left */
+}
+
+.content_about h3 {
+    margin-bottom: -1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.content_about p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.content_about tt {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.content_about ul {
+	list-style-type: disc;
+	margin-top: 0; /* Remove space above the list */
+	margin-bottom: 0; /* Optional: Avoid extra space between lists */
+	margin-left: 30px;
+	padding-left: 20px; /* Keep bullets indented */
+    padding-right: 10px;
+}
+
+.content_about li {
+	margin-top: 0.5rem; /* Space between list items */
+    padding-right: 10px;
+}
+
+.content img {
+    width: 100%; /* Ensure the image takes up full width of the container */
+    max-width: clamp(100px, 30%, 200px);
+    height: auto; /* Keep the aspect ratio intact */
+    border-radius: 10px;
+    border: 3px solid #333;
+    object-fit: cover; /* Ensures the image fits within the container without distortion */
+    margin: 1.5rem;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 1.1s ease-in-out forwards;
+    
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.content p {
+    text-align: left;
+    flex: 1;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem; /* Reduced padding */
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem; /* Reduced space between items */
+    text-align: center;
+    margin-bottom: -0.5rem;
+}
+
+/* LinkedIn Button Icon */
+.linkedin-button {
+    margin-bottom: 0.2rem; /* Reduced space between LinkedIn icon and last update */
+}
+
+.linkedin-button i {
+    font-size: clamp(35px, 40px, 50px);
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.linkedin-button i:hover {
+    color: #0077b5;
+}
+
+/* Last update text */
+footer .footer-content p {
+    margin-top: 0; /* Remove margin between the LinkedIn button and the "Last update" text */
+    font-size: 0.9rem; /* Optional: Adjust the size */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .contact {
+        margin-top: 2rem; /* Reduced spacing */
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .content img {
+        max-width: 150px; /* Adjust image size for very small screens */
+    }
+
+    .linkedin-button i {
+        font-size: 48px;
+    }
+
+    .footer-content {
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
