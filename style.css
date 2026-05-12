@@ -225,7 +225,7 @@ footer {
 
 /* Last update text */
 footer .footer-content p {
-    margin-top: 0; /* Remove margin between the LinkedIn button and the "Last update" text */
+    margin-top: 0; /* Remove margin between the LinkedIn button and the "Last updated" text */
     font-size: 0.9rem; /* Optional: Adjust the size */
 }
 
