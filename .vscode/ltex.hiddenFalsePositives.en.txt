@@ -1,0 +1,16 @@
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qphysics master student\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qmainly interested in\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qquantum field theory\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qparticle physics\\E$"}
+{"rule":"UNLIKELY_OPENING_PUNCTUATION","sentence":"^\\Q, from Siena, Italy.\\E$"}
+{"rule":"UNLIKELY_OPENING_PUNCTUATION","sentence":"^\\Q,\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qmachine learning\\E$"}
+{"rule":"UNLIKELY_OPENING_PUNCTUATION","sentence":"^\\Q, coding and\\E$"}
+{"rule":"EN_UNPAIRED_QUOTES","sentence":"^\\Q\".\\E$"}
+{"rule":"EN_UNPAIRED_QUOTES","sentence":"^\\Q\"I'm a\\E$"}
+{"rule":"UNLIKELY_OPENING_PUNCTUATION","sentence":"^\\Q).\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q.\\E$"}
+{"rule":"SENTENCE_WHITESPACE","sentence":"^\\QBestr Award Credential ID: 16tdC6bXQU-cptW5lMqOjg\\E$"}
+{"rule":"SENTENCE_WHITESPACE","sentence":"^\\QBestr Award Credential ID: brspd3ZKSlqT5tSJ9Lftcw\\E$"}
+{"rule":"SENTENCE_WHITESPACE","sentence":"^\\QBestr Award Credential ID: Dt-3K1HFQRCHvTRgw26zEg\\E$"}
+{"rule":"UNLIKELY_OPENING_PUNCTUATION","sentence":"^\\Q)\\E$"}

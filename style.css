@@ -49,7 +49,7 @@ nav a:hover {
 }
 
 /* Highlight buttons */
-nav a.higlight {
+nav a.highlight {
     background-color: #0077b5; /* Highlight color */
     color: white; /* Change text color */
     padding: 0.5rem 1rem; /* Add padding for better visibility */
@@ -57,7 +57,7 @@ nav a.higlight {
 }
 
 /* Hover effect for buttons */
-nav a.higlight:hover {
+nav a.highlight:hover {
     background-color: #005fa3; /* Darker shade on hover */
 }
 
@@ -227,6 +227,11 @@ footer {
 footer .footer-content p {
     margin-top: 0; /* Remove margin between the LinkedIn button and the "Last updated" text */
     font-size: 0.9rem; /* Optional: Adjust the size */
+}
+
+/* Thesis description spacing */
+.thesis-description {
+    margin-top: 0.8rem;
 }
 
 /* Responsive design for smaller screens */

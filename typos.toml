@@ -1,0 +1,6 @@
+[default]
+
+[default.extend-words]
+foto = "foto"
+STUDI = "STUDI"
+Slq = "Slq"
