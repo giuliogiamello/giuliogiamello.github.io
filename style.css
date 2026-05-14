@@ -1,10 +1,10 @@
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Source Serif 4', Georgia, serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #558b6c;
+    background-color: #0077b5; /* 558b6c */
     color: #333;
     display: flex;
     flex-direction: column;
@@ -13,12 +13,17 @@ body {
     min-height: 100dvh;
 }
 
+h1, h2, h3, h4, .hero h1, header h1, .content_about h2, .content_about h3 {
+    font-family: 'Playfair Display', 'Times New Roman', serif;
+    font-weight: 600;
+}
+
 /* Header styles */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #333;
+    background: #1a1a2e;
     color: #fff;
     padding: 0.3rem 1rem; /* Reduced padding */
     flex-wrap: wrap;
@@ -48,17 +53,17 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Highlight buttons */
-nav a.highlight {
-    background-color: #0077b5; /* Highlight color */
-    color: white; /* Change text color */
-    padding: 0.5rem 1rem; /* Add padding for better visibility */
-    border-radius: 5px; /* Optional: makes it look like a button */
+/* Active nav link */
+nav a.active {
+    background-color: #0077b5;
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
-/* Hover effect for buttons */
-nav a.highlight:hover {
-    background-color: #005fa3; /* Darker shade on hover */
+nav a.active:hover {
+    background-color: #005fa3;
 }
 
 .container {
@@ -67,7 +72,7 @@ nav a.highlight:hover {
     flex-direction: column;
     justify-content: center; /* Ensures the hero section is centered vertically */
     width: 95%;
-    background: #558b6c;
+    background: #0077b5; /* 558b6c */
     margin: auto;
     padding: 0.5rem; /* Reduced padding to decrease space between sections */
     height: 100%;
@@ -75,6 +80,7 @@ nav a.highlight:hover {
 
 /* Hero section */
 .hero {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     text-align: center;
     padding-top: 0.5rem; /* Reduced padding */
     padding-bottom: 0.5rem;
@@ -82,6 +88,18 @@ nav a.highlight:hover {
     background: #e2e2e2;
     border-radius: 10px;
     border: 2px solid #236e43;
+}
+
+/* Hover lift – applies only on about page */
+.about .hero:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* Ensure home page has no transform on hover */
+.home .hero:hover {
+    transform: none;
+    box-shadow: none;
 }
 
 .hero h1 {
@@ -184,7 +202,7 @@ nav a.highlight:hover {
 
 /* Footer styles */
 footer {
-    background: #333;
+    background: #1a1a2e;
     color: #fff;
     padding: 0.5rem; /* Reduced padding */
     margin-top: auto;
