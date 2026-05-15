@@ -1,5 +1,10 @@
 /* General styles */
 
+/* Prevent flash of light mode: applied via inline script in <head> before render */
+html.dark-early {
+    background-color: #121212;
+}
+
 /* Light theme (default) */
 :root {
     --bg-body: #bdd7d4;
