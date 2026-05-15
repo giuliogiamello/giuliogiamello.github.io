@@ -57,25 +57,38 @@
 </script>
 
 <script>
-    // Dark mode toggle: default to dark unless user explicitly chose light
+    // Dark mode by default
     const toggle = document.getElementById('dark-mode-toggle');
-    const storedTheme = sessionStorage.getItem('theme');
-
-    // Apply theme: default to 'dark' if no stored preference
-    if (storedTheme === 'light') {
+    const params = new URLSearchParams(window.location.search);
+    const isLight = params.get('theme') === 'light';
+ 
+    if (isLight) {
         document.body.classList.remove('dark');
         toggle.textContent = '🌙';
     } else {
-        // Default: dark mode
         document.body.classList.add('dark');
         toggle.textContent = '☀️';
     }
-
+ 
+    function updateNavLinks(isDark) {
+        document.querySelectorAll('nav a').forEach(link => {
+            const url = new URL(link.href, location.href);
+            if (isDark) {
+                url.searchParams.delete('theme');
+            } else {
+                url.searchParams.set('theme', 'light');
+            }
+            link.href = url.toString();
+        });
+    }
+ 
+    updateNavLinks(!isLight);
+ 
     toggle.addEventListener('click', () => {
         document.body.classList.toggle('dark');
         const isDark = document.body.classList.contains('dark');
-        sessionStorage.setItem('theme', isDark ? 'dark' : 'light');
         toggle.textContent = isDark ? '☀️' : '🌙';
+        updateNavLinks(isDark);
     });
 </script>
 
