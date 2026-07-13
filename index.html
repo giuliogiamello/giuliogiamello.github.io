@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Giulio Giamello/Home</title>
+</head>
+<body class="home">
+    <header>
+        <h1>Giulio Giamello</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About me</a>
+            <button id="dark-mode-toggle" aria-label="Dark mode toggle">🌙</button>
+        </nav>
+    </header>
+    <div class="container">
+        <section class="hero">
+            <section class="content">
+                <img src="foto_profilo.png" alt="foto_profilo">
+                <p>Hi, I'm <b>Giulio Giamello</b>, from Siena, Italy.<br><br>
+                <i><q>I'm a <b>physics master student</b> mainly interested in <u>particle physics</u>, <u>quantum field theory</u>, coding and <u>machine learning</u></q>.</i><br><br>
+                Currently, I'm a student of the <b>International Master on Advanced methods in Particle Physics</b> <a href="https://imapp.eu/">IMAPP</a>.<br><br>
+                <b>Contact me:</b><br>
+                If you would like to get in touch, feel free to reach me out via
+                <a href="mailto:giuliogiamello@gmail.com">email</a> (<tt>giuliogiamello@gmail.com</tt>).
+                </p>
+            </section>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a class="linkedin-button" href="https://www.linkedin.com/in/giulio-giamello/?locale=en_US" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a class="github-button" href="https://github.com/giuliogiamello" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <p>Last update on 3 July 2026</p>
+        </div>
+    </footer>
+    <script>
+    // Highlight current page in navigation
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const navLinks = document.querySelectorAll('nav a');
+    navLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        if (href === currentPage) {
+            link.classList.add('active');
+        }
+    });
+</script>
+
+<script>
+    // Dark mode by default
+    const toggle = document.getElementById('dark-mode-toggle');
+    const params = new URLSearchParams(window.location.search);
+    const isLight = params.get('theme') === 'light';
+ 
+    if (isLight) {
+        document.body.classList.remove('dark');
+        toggle.textContent = '🌙';
+    } else {
+        document.body.classList.add('dark');
+        toggle.textContent = '☀️';
+    }
+ 
+    function updateNavLinks(isDark) {
+        document.querySelectorAll('nav a').forEach(link => {
+            const url = new URL(link.href, location.href);
+            if (isDark) {
+                url.searchParams.delete('theme');
+            } else {
+                url.searchParams.set('theme', 'light');
+            }
+            link.href = url.toString();
+        });
+    }
+ 
+    updateNavLinks(!isLight);
+ 
+    toggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark');
+        const isDark = document.body.classList.contains('dark');
+        toggle.textContent = isDark ? '☀️' : '🌙';
+        updateNavLinks(isDark);
+    });
+</script>
+
+</body>
+</html>
